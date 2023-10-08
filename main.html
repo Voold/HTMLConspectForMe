@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Voold">
+    <meta name="description" content="some website for my education">
+    <meta name="keywords" content="some website,conspect,test,html,css">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <a name="start"></a>
+    <!-- <a href="#start">к началу...</a> -->
+    <div id="head">CSS + HTML</div>
+    <div id="leftSide" style="text-align: center">
+      MENU
+      <div class="menuLS">
+        <a class="link" href="#text"><h2>Text</h2></a>
+        <a class="link" href="#links"><h2>Links</h2></a>
+        <a class="link" href="#images"><h2>Images</h2></a>
+        <a class="link" href="#tables"><h2>Tables</h2></a>
+        <a class="link" href="#input"><h2>Input</h2></a>
+        <a class="link" href="#buttons"><h2>Buttons</h2></a>
+        <a class="link" href="#select"><h2>Selections</h2></a>
+        <a class="link" href="#html5"><h2>HTML5 Teg`s</h2></a>
+        <a class="link" href="#CSS"><h2>CSS Styles</h2></a>
+      </div>
+    </div>
+    <div id="upperMain">Здесь могла быть ваша реклама</div>
+    <div id="main">
+      <a name="text"></a>
+      <a class="link" href="#start">❤</a><b>Text</b>
+      <div id="text">
+          <ul type="circle">
+          <li><h1>Заголовок 1 (h1)</h1></li>
+          <li><h2>Заголовок 2 (h2)</h2></li>
+          <li><h3>Заголовок 3 (h3)</h3></li>
+          <li><h4>Заголовок 4 (h4)</h4></li>
+          <li><h5>Заголовок 5 (h5)</h5></li>
+          <li><h6>Заголовок 6 (h6)</h6></li>
+          <li><b>Жирный (b)</b>  <i>Курсив (i)</i>  <strike>Зачеркнутый (strike)</strike></li>
+        </ul>
+        <br>
+        <big> Text (Big) </big> <-- Text --> <small> Text (Small) </small> <br>
+        Txt2 -> Txt<sub>2</sub> (sub) -> Txt<sup>2</sup> (sup)
+        <br><br><br>
+        <p id="TextCSSHead"> Text CSS</p>
+        <p id="TextCSS">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum.</p>
+        <br><br><br>
+        <address>
+          Кузбасс, Юрга, Сосновая 7<sup>a</sup> (address)
+        </address>
+        <br><br>
+        <pre>
+          Сохранение всех отступов
+    int a:
+    a= 76;
+    for (int i=1;i<=5;i++)
+    {
+      a+=2
+    }
+        </pre>
+        <br>
+        <!-- В code у нас только обявление переменной или типо того-->
+        <code>
+         static TextBox First = new TextBox(); (code)
+        </code>
+        <br>
+        <abbr title="Томский Политехнический Уиверситет"><h1>ТПУ</h1></abbr>
+        <p> <b>Строка с абзацем (/p) </b> </p>
+      </div>
+      <a name="links"></a>
+      <a class="link" href="#start">❤</a><b>Links</b>
+      <div id="links">
+        <a class="links" href="https://google.com" title="Click me!!!"><h1>Google - этаже вкладка</h1></a>
+        <a class="links" href="https://google.com" title="Click me!!!" target="_blank"><h1>Google - в новой вкладке</h1></a><br>
+        <a href="#start" title="Переход на якорь"> переход на начало странички</a><br>
+        <a class="links" href="mailto:voloda.kostromsoj@gmail.com"><b><big>Написать на почту, лол</big></b></a>
+        <a name="images"></a>
+      </div>
+      <a name="images"></a>
+      <a class="link" href="#start">❤</a><b>Images</b>
+      <div id="images">
+        <img src="https://rabotatam.ru/uploads/monthly_2017_04/large.58f1bdeda1c5c_.jpg.91c33c120ad86a4dbf2c50dd44d00890.jpg" width="37%" title="КоТиК" alt="Котиииииик">
+        <img src="https://funik.ru/wp-content/uploads/2018/10/17478da42271207e1d86.jpg" width="33%" title="КоТиК" alt="Котиииииик">
+        <img src="C:\Users\Санечка\Desktop\nothing\zero\HTML\www.allBase\e88f3028afe762960b7a2c11837b34d1.jpg" width="20%" title="КоТиК" alt="Котиииииик">
+        <img src="C:\Users\Санечка\Desktop\nothing\zero\HTML\www.allBase\e88f3028afe76297a2c11837b34d1.jpg" width="20%" title="КоТиК" alt="Котик">
+      </div>
+      <a class="link" href="#start">❤</a><b>Tables</b>
+      <a name="tables"></a>
+      <div id="tables">
+        <table border="10" width="500px" style="float:left;padding:5%;margin:5%">
+          <thead> <tr>
+            <th>Арбузы</th> <th>Дыни</th> <th>Яблоки</th>
+            </tr> </thead>
+          <tbody>
+            <tr> <td>Малазийский</td> <td>Астраханская</td> <td>Греческие</td> </tr>
+            <tr> <td>Малазийский</td> <td>Астраханская</td> <td>Греческие</td> </tr>
+            <tr> <td>Малазийский</td> <td>Астраханская</td> <td>Греческие</td> </tr>
+          </tbody>
+          <tfoot align="center">
+            <tr> <td>150р</td> <td>200р</td> <td>300р</td> </tr>
+          </tfoot>
+        </table>
+        <br>
+        <!--Таблица с инета, лол-->
+        <table border="1" cellspacing="0" cellpadding="12" width="500" height="300" style="float:left;padding:5%;margin:5%">
+          <tr>
+            <th align="center" >Вверху</th> <th align="center" >У середины</th>
+            <th align="center" >Внизу</th>
+            </tr>
+          <tr height="100">
+            <td valign="top">слово</td>
+            <td valign="middle" >слово</td>
+            <td valign="bottom" >слово</td>
+          </tr>
+        </table>
+      </div>
+      <a class="link" href="#start">❤</a><b>Input</b>
+      <a name="input"></a>
+      <div id="input">
+        <form action="" method="post">
+          <label for="user_name">Введите Имя</label>
+          <input class="textArea" type="text" name="name" value="Барсик" placeholder="зачем стёр?" id="user_name">
+          <label>Введите Фамилию</label>
+          <input class="textArea" type="text" name="surname" placeholder="Котеевич???"><br>
+          <label>Введите возраст</label>
+          <input class="textArea" type="text" name="age" value="Тебе всегда 18..." placeholder="ачё.." disabled><br>
+          <label>type = password</label>
+          <input class="textArea" type="password" name="password" value="Барсик" placeholder="password?">
+          <br><br>
+          <div style="float:left;border: 1px solid red;width:40%;padding:2%;margin:2%">
+        </form>
+            <form action="" method="post">
+              <label>type = date</label>
+              <input class="textArea" type="date" name="date">
+              <br><br >
+              <label>type = time</label>
+              <input class="textArea" type="time" name="time">
+              <br><br>
+              <label id="Choise_Color">type = color</label>
+              <input type="color" name="color">
+              <br><br>
+              <label>type = file</label>
+              <input type="file" name="file">
+            </form>
+          </div>
+          <div style="float:left;border: 1px solid red;width:40%;padding:2%;margin:2%">
+            <form action="" method="post">
+              <label>type = checkbox</label>
+              <input type="checkbox" name="checkbox">
+              <br><br>
+              <label>type = radio1</label>
+              <input type="radio" name="radio">
+              <br><br>
+              <label>type = radio2</label>
+              <input type="radio" name="radio">
+              <br><br>
+              <label>type = radio3  </label>
+              <!--дрyгое имя-->
+              <input type="radio" name="radio3"> <br>
+            </form>
+          </div>
+        <form action="" method="post">
+          <label>TextArea</label><br>
+          <textarea style="font-size:1em" class="textArea" maxlength="150" placeholder="вучача">Просто текст, который  пишу</textarea><br>
+        </form>
+      </div>
+      <a class="link" href="#start">❤</a><b>Buttons</b>
+      <a name="buttons"></a>
+      <div id="buttons">
+        <form>
+          <input style="color:white" type="Button" value="botton"><br><br>
+          <input style="color:white" type="submit" value="submit"><br><br>
+          <input style="color:white" type="reset" value="reset"><br><br>
+          <button style="color:white" type="reset">Кнопка Button</button><br><br>
+        </form>
+      </div>
+      <a name="select"></a>
+      <a class="link" href="#start">❤</a><b>Selections</b>
+      <div id="select">
+        <select style="color:white">
+          <option disabled selected>----</option>
+          <option>BMW</option>
+          <option>AUDI</option>
+          <option>LADA</option>
+        </select>
+        <label><b>Множественный cелектор выбора</b></label>
+        <!--size показывает сколько польователю?-->
+        <select multiple size="4" style="color:white">
+          <option disabled selected>----</option>
+          <option>BMW</option>
+          <option>AUDI</option>
+          <option>LADA</option>
+          <option>BMW</option>
+          <option>AUDI</option>
+          <option>LADA</option>
+          <option>BMW</option>
+          <option>AUDI</option>
+          <option>LADA</option>
+        </select><br>
+        <img src="inputType.jpg" width="40%" title="inputType" alt="inputType">
+      </div>
+      <a class="link" href="#start">❤</a><b>HTML5</b>
+      <a name="html5"></a>
+      <div id="html5">
+
+      </div>
+      <a class="link" href="#start">❤</a><b>CSS</b>
+      <a name="CSS"></a>
+      <div id="CSS">
+
+      </div>
+    </div>
+    <div id="foot"><div id="ft1">
+        (c) Voold 2023г.
+      </div>
+      <div id="ft2">
+        ...
+      </div>
+      <div id="ft3">
+        I wrote this site solely for educational purposes.
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Sofia+Sans+Extra+Condensed:ital,wght@0,500;0,800;0,1000;1,500;1,800;1,1000&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background: #0e0e18;
+
+}
+
+body {
+  height: 2000px;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  color: #e2008e;
+  font-size: 1.5em;
+}
+
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #0e0e18;
+}
+::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #0e0e18;
+}
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+.link{
+  color:#001de2;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link:hover{
+  color:purple;
+  text-decoration: underline;
+  cursor: crosshair ;
+}
+.link:visited{
+  color:#001de2;
+}
+
+#head{
+  font-family: 'Rubik Glitch', cursive;
+  color: #001de2;
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  border-bottom: 2px solid white;
+  float:left;
+  margin-bottom: 2%;
+}
+
+#leftSide{
+  font-size: 1.3em;
+  height: 365px;
+  width: 10%;
+  border: 1px solid white;
+  float:left;
+  margin-left: 2%;
+  padding: 0.5% 2%;
+}
+
+#upperMain{
+  height: 365px;
+  width: 76%;
+  line-height: 356px;
+  border: 1px solid white;
+  float: right;
+  text-align: center;
+  font-size: 4em;
+  padding: 0.5% 2%;
+  margin-right: 2%;
+}
+
+#main{
+  font-size: 1.6em;
+  border: 1px solid white;
+  width: 92%;
+  margin: 2% 2%;
+  padding: 0.5% 2%;
+  float: left;
+}
+
+#foot{
+  height: 50px;
+  width: 100%;
+  border-top: 2px solid white;
+  float:left;
+  text-align: center;
+  margin-top: 2%;
+}
+
+#ft1, #ft2, #ft3{
+  width: 25%;
+  border: 1px solid red;
+  float: inherit;
+  margin: 2%;
+  padding: 2%;
+}
+
+.menuLS{
+  height: 10%;
+  text-align: left;
+}
+
+#TextCSS{
+  /* font-weight: normal; */
+  font-family: 'Marck Script', cursive;
+
+  text-align: justify;
+  text-transform: lowercase;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  color: #e2c500;
+
+}
+#TextCSSHead{
+  /* font-weight: normal; */
+  font-family: 'Marck Script', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: #e2c500;
+  opacity: 0.8;
+}
+
+#text,#links,#tables,#images,#input,#buttons,#select,#html5,#CSS{
+  font-size: 0.7em;
+  color:  #00e254;
+}
+.textArea{
+  color: white;
+  font-style: oblique;
+  font-size: 0.6em;
+}
+.textArea:focus{
+  color: blue;
+}
